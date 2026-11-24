@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Simple app icon: white speech bubble with text lines on indigo. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="48dp" android:height="48dp"
+    android:viewportWidth="48" android:viewportHeight="48">
+    <path android:fillColor="#FF3F51B5" android:pathData="M24,0a24,24 0,1 1,0 48a24,24 0,1 1,0 -48z" />
+    <path android:fillColor="#FFFFFFFF"
+        android:pathData="M12,13h24a2,2 0,0 1,2 2v14a2,2 0,0 1,-2 2H19l-7,6V15a2,2 0,0 1,2,-2z" />
+    <path android:fillColor="#FF3F51B5" android:pathData="M16,18h16v2H16zM16,23h11v2H16z" />
+</vector>
