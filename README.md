@@ -72,6 +72,12 @@ In section **2. Permissions**, tap **Grant** next to each item:
 | Notifications (Android 13+) | Shows the status notification with its **Stop** button | Tap **Allow** |
 | Screen capture | Needed for audio playback capture | Asked **every time** you tap the bubble (Android rule): tap **Start** |
 
+**"App was denied access" / "Restricted setting" when turning on Display over other apps:**
+Android blocks this for apps installed from a downloaded file. Fix it once:
+*Settings → Apps → See all apps → Reel Transcriber → ⋮ (top right) → Allow restricted settings*,
+confirm with your PIN, then turn on *Display over other apps* again. (If there's no such menu
+item, Advanced Protection may be on; installing over USB with `adb install` avoids the block.)
+
 If you denied the audio permission twice, Android stops asking; enable it under
 *Settings → Apps → Reel Transcriber → Permissions → Microphone*.
 
